@@ -25,10 +25,23 @@
         font-size: 2.9em;
         color: lightgrey;
       }
+      .controls {
+        display: grid;
+        grid-template-columns: 50px 150px;
+        color: lightgrey;
+        margin-bottom: 20px;
+      }
     </style>
   </head>
   <body>
     <h1>JavaScript Shooting Bullets</h1>
+
+    <span class="controls">
+      <div>Move</div>
+      <div>Arrow Keys</div>
+      <div>Shoot</div>
+      <div>Space bar</div>
+    </span>
     <canvas id="game"></canvas>
     <script src="index.js" type="module"></script>
   </body>
