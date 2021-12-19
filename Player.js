@@ -25,7 +25,7 @@ export default class Player {
     if (this.shootPressed) {
       const speed = 5;
       const delay = 7;
-      const damage = 5;
+      const damage = 1;
       const bulletX = this.x + this.width / 2;
       const bulletY = this.y;
       this.bulletController.shoot(bulletX, bulletY, speed, damage, delay);
